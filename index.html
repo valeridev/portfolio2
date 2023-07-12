@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio, the homepage where I display a demonstration of a few of my projects during my course with
+            SheCodes> </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+        <style>
+            @media (max-width: 576px) {
+                h1 {
+                    font-size: 48px !important;
+                }
+
+                h2 {
+                    font-size: 36px !important;
+                }
+
+                h3 {
+                    font-size: 18px !important;
+                }
+
+                .bold-titles {
+                    padding-top: 55px !important;
+                }
+
+                .navigation-links {
+                    display: none;
+                }
+
+                p {
+                    display: none;
+                }
+
+                .titles {
+                    display: none;
+                }
+
+                .buttons {
+                    text-align: center;
+                }
+
+
+            }
+
+
+
+            body {
+
+                margin: 100px auto;
+
+            }
+
+            h1 {
+                font-size: 96px;
+
+
+            }
+
+            h2 {
+                font-size: 48px;
+
+
+            }
+
+
+
+            h3 {
+                font-size: 24px;
+                opacity: 0.7;
+                display: block;
+
+
+
+            }
+
+            h1,
+            h2,
+            h3 {
+                text-align: center;
+                margin: 0;
+            }
+
+
+            .navigation-links a {
+                margin: 20px;
+                border-radius: 10px;
+                padding: 20px 15px;
+                text-decoration: none;
+
+                justify-content: space-evenly;
+            }
+
+            .navigation-links {
+                display: flex;
+                justify-content: center;
+                padding-bottom: 5px;
+
+            }
+
+
+            :root {
+                --primary-color: #6c63ff;
+                --secondary-color: #f5f2fe;
+                --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+            }
+
+            .contact-link {
+                background: var(--primary-color);
+                box-shadow: var(--box-shadow);
+                color: white;
+            }
+
+            .about-link {
+                color: var(--primary-color);
+                border: 1px solid var(--primary-color);
+            }
+
+            .homepage-link {
+                color: var(--primary-color);
+                text-decoration: none;
+            }
+
+            .photo {
+                max-width: 100px;
+                height: 50px;
+                width: 50px;
+            }
+
+            .bold-titles {
+                padding-top: 35px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 1.5;
+
+
+
+            }
+
+            .mb-3 {
+                text-align: left;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+
+            <div class=" container">
+                <a class="navbar-brand" href="#"><img src="html-logo.png" alt="profile-logo" class="photo" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html#email">Contact me</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="bold-titles">
+            <h2>👋 Hi I am</h2>
+            <h1>Váleri Calhau</h1>
+            <h3>🇧🇷 Front-end developer, based in UK</h3>
+        </div>
+        <div class="navigation-links">
+            <a href="about.html#contact" class="contact-link">Contact me</a>
+            <a href="about.html" class="about-link">About me</a>
+        </div>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="yoga.png" alt="Yoga" class="img-fluid rounded-2" />
+                </div>
+                <div class="col-sm-6">
+                    <div class="titles">
+                        <h2 class="bg-white ps-4 pt-5 text-start">Yoga app</h2>
+                    </div>
+                    <p class="bg-white ps-4 pt-5 pe-4 pb-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                        quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+                        eos eveniet alias temporibus deserunt veritatis minima fugiat
+                        explicabo eum dolore.
+                    </p>
+                    <div class="buttons">
+                        <button type="button" class="btn btn-primary ms-4 contact-link mb-5" style="
+                  --bs-btn-hover-bg: rgba(137, 93, 241, 1);
+                  --bs-btn-hover-border-color: rgba(137, 93, 241, 1);
+                ">
+                            Launch Yoga App
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-row-reverse">
+                <div class="col-sm-6">
+                    <img src="weather.png" alt="Yoga" class="img-fluid rounded-2" />
+                </div>
+                <div class="col-sm-6">
+                    <div class="titles">
+                        <h2 class="bg-white ps-4 pt-5 text-start">Weather app</h2>
+                    </div>
+                    <p class="bg-white ps-4 pt-5 pe-4 pb-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                        quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+                        eos eveniet alias temporibus deserunt veritatis minima fugiat
+                        explicabo eum dolore.
+                    </p>
+                    <div class="buttons">
+                        <button type="button" class="btn btn-primary ms-4 contact-link mb-5" style="
+                  --bs-btn-hover-bg: rgba(137, 93, 241, 1);
+                  --bs-btn-hover-border-color: rgba(137, 93, 241, 1);
+                ">
+
+                            Launch Weather app
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="yogurt.png" alt="Yoga" class="img-fluid rounded-2" />
+                </div>
+                <div class="col-sm-6">
+                    <div class="titles">
+                        <h2 class="bg-white ps-4 pt-5 text-start">Yogurt app</h2>
+                    </div>
+                    <p class="bg-white ps-4 pt-5 pe-4 pb-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                        quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+                        eos eveniet alias temporibus deserunt veritatis minima fugiat
+                        explicabo eum dolore.
+                    </p>
+                    <div class="buttons">
+                        <button type="button" class="btn btn-primary ms-4 contact-link mb-5" style="
+                  --bs-btn-hover-bg: rgba(137, 93, 241, 1);
+                  --bs-btn-hover-border-color: rgba(137, 93, 241, 1);
+                ">
+                            Launch Yogurt app
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
